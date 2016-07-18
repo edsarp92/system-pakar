@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="Penyakit">
+        <!--<Field>id | nama | latin | definis</Field>-->
+        <item>0|Kadas|Kudusis|Definis kadas</item>
+        <item>1|Kurap|Kurapus|Definis kurap</item>
+        <item>2|Kudis|Kudisus|Definis Kudis</item>
+        <item>3|Jerawat|Jerawatus|Definis Jerawat</item>
+    </array>
+    <array name="Anamnesa">
+        <!--<Field>id | categori | pertanyaan</Field>-->
+        <item>0|Dewasa|Apakah kulit keluar bintik merah?</item>
+        <item>1|Dewasa|Apakah kulit kering?</item>
+        <item>2|Anak|Apakah kulit keluar bintik merah dan bersisik?</item>
+        <item>3|Anak|Apakah kulit bersisik?</item>
+        <item>4|Anak|Apakah kulit mengeluarkan cairan?</item>
+    </array>
+    <array name="Diagnosa">
+        <!--<Field>formula | id_penyakit | solusi</Field>-->
+        <item>D11|1|Sebaiknya dikonsultasikan ke doketer spesialis</item>
+        <item>D01|3|Kurangi makan berminyak</item>
+        <item>D10|2|Kurangi perbanyak minum</item>
+        <item>A11|1|Sebaiknya dikonsultasikan ke doketer spesialis</item>
+        <item>A01|3|Kurangi makan berminyak</item>
+        <item>A10|2|Kurangi perbanyak minum</item>
+    </array>
+</resources>
