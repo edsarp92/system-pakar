@@ -5,10 +5,14 @@
     <string name="prev">Previous</string>
     <string name="finish">Finish</string>
     <string name="review">Review</string>
-    <string name="label_your_name">Name</string>
-    <string name="label_your_email">Email</string>
-    <string name="hint_your_name">e.g. Name</string>
-    <string name="hint_your_email">Optional</string>
+    <string name="label_name">Name</string>
+    <string name="label_email">Email</string>
+    <string name="label_birth_day">Birth day</string>
+    <string name="label_radio_male">Male</string>
+    <string name="label_radio_female">Female</string>
+    <string name="label_gender">Gender</string>
+    <string name="hint_name">e.g. Name</string>
+    <string name="hint_optional">Optional</string>
     <string name="submit_confirm_message">Jaga kesehatan anda!</string>
-    <string name="submit_confirm_button">Place order</string>
+    <string name="submit_confirm_button">Thank you!</string>
 </resources>

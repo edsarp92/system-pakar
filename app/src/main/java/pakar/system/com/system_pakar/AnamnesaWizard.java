@@ -46,7 +46,8 @@ public class AnamnesaWizard extends AbstractWizardModel {
                                         .setRequired(true),
                                 new SingleFixedChoicePage(this, "Anda sakit?")
                                         .setChoices("Yes", "No")
-                                        .setRequired(true))
+                                        .setRequired(true)
+                        .setRequired(true))
 
 
         );

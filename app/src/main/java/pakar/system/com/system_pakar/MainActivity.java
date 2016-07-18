@@ -99,7 +99,7 @@ public class MainActivity extends FragmentActivity implements
                                     .create();
                         }
                     };
-                    dg.show(getSupportFragmentManager(), "place_order_dialog");
+                    dg.show(getSupportFragmentManager(), "Result");
                 } else {
                     if (mEditingAfterReview) {
                         mPager.setCurrentItem(mPagerAdapter.getCount() - 1);

@@ -12,7 +12,7 @@ import pakar.system.com.system_pakar.ui.CustomerInfoFragment;
 public class CustomerInfoPage extends PageModel {
     public static final String NAME_DATA_KEY = "nama";
     public static final String GENDER_DATA_KEY="gender";
-    public static final String OLD_DATA_KEY="old";
+    public static final String BIRTH_DAY_DATA_KEY="birth_day";
     public static final String EMAIL_DATA_KEY = "email";
 
 
@@ -29,14 +29,10 @@ public class CustomerInfoPage extends PageModel {
     public void getReviewItems(ArrayList<ReviewItemModel> dest) {
         dest.add(new ReviewItemModel("Your name", mData.getString(NAME_DATA_KEY), getKey(), -1));
         dest.add(new ReviewItemModel("Your gender", mData.getString(GENDER_DATA_KEY), getKey(), -1));
-        dest.add(new ReviewItemModel("Your old", mData.getString(OLD_DATA_KEY), getKey(), -1));
+        dest.add(new ReviewItemModel("Your birth day", mData.getString(BIRTH_DAY_DATA_KEY), getKey(), -1));
         dest.add(new ReviewItemModel("Your email", mData.getString(EMAIL_DATA_KEY), getKey(), -1));
     }
 
-
-    public int getOld() {
-        return mData.getInt(OLD_DATA_KEY);
-    }
     @Override
     public boolean isCompleted() {
         return !TextUtils.isEmpty(mData.getString(NAME_DATA_KEY));
